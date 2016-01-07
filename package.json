@@ -1,0 +1,24 @@
+{
+  "name": "angular2tests",
+  "version": "1.0.0",
+  "description": "angular2 tests",
+  "main": "index.js",
+  "scripts": {
+    "clean-all": "rimraf node_modules build && npm cache clean",
+    "clean": "rimraf build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.10"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.0",
+    "ts-loader": "^0.7.2"
+  }
+}
