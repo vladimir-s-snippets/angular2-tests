@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean-all": "rimraf node_modules build && npm cache clean",
-    "clean": "rimraf build"
+    "clean": "rimraf build",
+    "server": "./node_modules/.bin/webpack-dev-server --progress --profile --colors --display-error-details --display-cached"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "angular2": "^2.0.0-beta.0",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.13",
+    "es7-reflect-metadata": "^1.4.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "^5.0.0-beta.0",
     "zone.js": "^0.5.10"
